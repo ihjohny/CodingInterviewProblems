@@ -11,7 +11,7 @@ public class Main {
         System.out.println(maximumSumContiguous(array));
     }
 
-    //complexity n
+    //complexity O(n)
     private static int maximumSumContiguous(int[] data){
         int size = data.length;
         int maxSum = -9999999; //a large negative number
@@ -27,7 +27,7 @@ public class Main {
         return maxSum;
     }
 
-    //complexity n^2
+    //complexity O(n^2)
     /*private static int maximumSumContiguous(int[] data){
         int size = data.length;
         int maxSum = data[0];
